@@ -18,6 +18,26 @@ The application combines a React frontend with a Java Spring Boot backend and a 
 - **Meeting Management:** Manage meeting records.
 - **Internal Request Forms (IRF):** Manage internal requests.
 
+## Application Screenshots
+
+### Dashboard
+![PBMS Dashboard](screenshots/dashboard.png)
+
+### Opportunity Management
+![Opportunities](screenshots/opportunities.png)
+
+### Bid Management
+![Bids](screenshots/bids.png)
+
+### Project Management
+![Projects](screenshots/projects.png)
+
+### Meeting Management
+![Meetings](screenshots/meetings.png)
+
+### Internal Request Forms
+![IRF](screenshots/irf.png)
+
 ## Tech Stack
 
 | Layer | Technologies |
