@@ -1,0 +1,22 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: pms_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: pms_db
+      MYSQL_USER: pms_user
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "3306:3306"
+    volumes:
+      - pms_mysql_data:/var/lib/mysql
+
+  adminer:
+    image: adminer
+    container_name: pms_adminer
+    ports:
+      - "8081:8080"
+
+volumes:
+  pms_mysql_data:
